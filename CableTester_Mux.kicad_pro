@@ -447,9 +447,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "footprints"
+      "footprints",
+      "Footprints"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "CableTester_Mux_Project_Lib"
+    ]
   },
   "meta": {
     "filename": "CableTester_Mux.kicad_pro",
