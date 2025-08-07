@@ -220,7 +220,7 @@
 		(layer "F.Fab")
 		(uuid "9432f943-67f2-450c-adf0-eb4218a78330")
 	)
-	(pad "1_1" thru_hole circle
+	(pad "1" thru_hole circle
 		(at -2.5 -3.75)
 		(size 2.85 2.85)
 		(drill 1.9)
@@ -229,7 +229,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "d5746382-be85-4df0-857c-adaa443c76e6")
 	)
-	(pad "1_2" thru_hole circle
+	(pad "2" thru_hole circle
 		(at 2.5 -3.75)
 		(size 2.85 2.85)
 		(drill 1.9)
@@ -238,7 +238,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "2f9c35f9-a9d1-4d8b-8bfb-25dd8cfc860d")
 	)
-	(pad "1_3" thru_hole circle
+	(pad "3" thru_hole circle
 		(at -2.5 3.75)
 		(size 2.85 2.85)
 		(drill 1.9)
@@ -247,7 +247,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "9f2544b8-35ce-4068-88ae-1058739b39c9")
 	)
-	(pad "1_4" thru_hole circle
+	(pad "4" thru_hole circle
 		(at 2.5 3.75)
 		(size 2.85 2.85)
 		(drill 1.9)
@@ -257,7 +257,7 @@
 		(uuid "f25954dd-6737-44ef-af22-e518eba655b4")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/7792.STEP"
+	(model "${KIPRJMOD}/lib/3dModels/7792.STEP"
 		(offset
 			(xyz -7.5 0 0)
 		)

@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "CableTester_Mux_Project_Lib")(type "KiCad")(uri "${KIPRJMOD}/lib/CableTester_Mux_Project_Lib.kicad_sym")(options "")(descr ""))
+  (lib (name "CableTester_Mux_Project_Lib")(type "KiCad")(uri "${KIPRJMOD}/lib/Symbols/CableTester_Mux_Project_Lib.kicad_sym")(options "")(descr ""))
 )
