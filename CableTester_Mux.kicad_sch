@@ -3401,6 +3401,409 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -3629,16 +4032,10 @@
 		)
 	)
 	(junction
-		(at 199.39 66.04)
+		(at 256.54 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1746a3cb-3439-416c-872a-caa78a71d6af")
-	)
-	(junction
-		(at 87.63 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e049628-3f3e-497b-bf2b-9a6e95f9a55d")
 	)
 	(junction
 		(at 125.73 121.92)
@@ -3647,44 +4044,32 @@
 		(uuid "23f82334-043a-4b4a-ab7e-fdfe147986f9")
 	)
 	(junction
-		(at 215.9 138.43)
+		(at 273.05 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b88066a-0b28-4111-ae2e-d56ebc1b4890")
 	)
 	(junction
-		(at 198.12 138.43)
+		(at 255.27 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33391896-d4de-48b3-94d3-3f148e3080a5")
 	)
 	(junction
-		(at 87.63 38.1)
+		(at 127 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "59c4bed5-51c0-40ff-8756-f22bcddbc01f")
+		(uuid "4a7e39f8-b8f3-4f19-8421-55ba4a15539a")
 	)
 	(junction
-		(at 87.63 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6dcea09b-315b-4e6c-9cd6-8a9ae0cb55ca")
-	)
-	(junction
-		(at 87.63 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9215f2e5-5df5-4fdd-abf7-2e452aee7820")
-	)
-	(junction
-		(at 217.17 66.04)
+		(at 274.32 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e69fd07c-a4a1-4263-8f12-807497835505")
 	)
 	(wire
 		(pts
-			(xy 215.9 135.89) (xy 215.9 138.43)
+			(xy 273.05 135.89) (xy 273.05 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3694,7 +4079,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 38.1) (xy 87.63 38.1)
+			(xy 85.09 38.1) (xy 93.98 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3734,16 +4119,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 146.05) (xy 93.98 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "131876a4-5f5d-4df3-91ca-be6c2a050565")
-	)
-	(wire
-		(pts
 			(xy 93.98 73.66) (xy 93.98 71.12)
 		)
 		(stroke
@@ -3764,7 +4139,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 135.89) (xy 215.9 135.89)
+			(xy 270.51 135.89) (xy 273.05 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3794,7 +4169,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 63.5) (xy 199.39 63.5)
+			(xy 259.08 63.5) (xy 256.54 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3814,7 +4189,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 86.36) (xy 125.73 86.36)
+			(xy 133.35 69.85) (xy 127 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3844,7 +4219,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 135.89) (xy 198.12 135.89)
+			(xy 257.81 135.89) (xy 255.27 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3864,7 +4239,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 66.04) (xy 217.17 68.58)
+			(xy 274.32 66.04) (xy 274.32 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3874,7 +4249,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 86.36) (xy 125.73 82.55)
+			(xy 85.09 148.59) (xy 99.06 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285118ed-4728-4cd6-99f9-b7ef5dbd7a47")
+	)
+	(wire
+		(pts
+			(xy 127 69.85) (xy 127 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3894,7 +4279,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 66.04) (xy 199.39 66.04)
+			(xy 259.08 66.04) (xy 256.54 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3914,16 +4299,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 73.66) (xy 93.98 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35b40bd2-fa51-411f-9be7-edb4f7359dbe")
-	)
-	(wire
-		(pts
 			(xy 125.73 119.38) (xy 125.73 121.92)
 		)
 		(stroke
@@ -3934,7 +4309,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 135.89) (xy 198.12 138.43)
+			(xy 255.27 135.89) (xy 255.27 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3954,16 +4329,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 68.58) (xy 125.73 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a67539f-2931-4daf-ac8e-0a32d00e5ae7")
-	)
-	(wire
-		(pts
 			(xy 135.89 97.79) (xy 125.73 97.79)
 		)
 		(stroke
@@ -3971,26 +4336,6 @@
 			(type default)
 		)
 		(uuid "4055fe02-85e1-4c9d-99e7-520572c1b327")
-	)
-	(wire
-		(pts
-			(xy 87.63 109.22) (xy 87.63 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49231726-1107-495f-ad16-91fa400fa0ee")
-	)
-	(wire
-		(pts
-			(xy 85.09 76.2) (xy 87.63 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c26d172-59d3-4e2b-a53d-f28a88b62d92")
 	)
 	(wire
 		(pts
@@ -4014,7 +4359,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 63.5) (xy 199.39 66.04)
+			(xy 256.54 63.5) (xy 256.54 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4034,7 +4379,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 109.22) (xy 93.98 109.22)
+			(xy 85.09 109.22) (xy 93.98 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4054,26 +4399,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 73.66) (xy 87.63 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bdc5b51-d931-4cb1-9aea-6c17f826304c")
-	)
-	(wire
-		(pts
-			(xy 87.63 38.1) (xy 93.98 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cce6a74-01c8-42dc-92fb-1f45625cb800")
-	)
-	(wire
-		(pts
 			(xy 176.53 116.84) (xy 199.39 116.84)
 		)
 		(stroke
@@ -4081,6 +4406,16 @@
 			(type default)
 		)
 		(uuid "64d766ce-3a39-4f60-87e8-54f8dfe10555")
+	)
+	(wire
+		(pts
+			(xy 133.35 86.36) (xy 135.89 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d96951-e051-47f6-bc9d-3f80f8c4619c")
 	)
 	(wire
 		(pts
@@ -4114,16 +4449,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 38.1) (xy 87.63 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70c051c7-a111-44d3-b92d-b44a8db40c4f")
-	)
-	(wire
-		(pts
 			(xy 85.09 45.72) (xy 93.98 45.72)
 		)
 		(stroke
@@ -4154,23 +4479,23 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 66.04) (xy 199.39 68.58)
+			(xy 99.06 76.2) (xy 99.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770652a6-3f6d-4a82-a537-d5135b0ef33c")
+	)
+	(wire
+		(pts
+			(xy 256.54 66.04) (xy 256.54 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "772ed19a-e400-4526-ad18-993ea4cf7fc2")
-	)
-	(wire
-		(pts
-			(xy 85.09 111.76) (xy 87.63 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79015e46-86e3-4e74-9e03-24163789d4aa")
 	)
 	(wire
 		(pts
@@ -4244,6 +4569,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 111.76) (xy 99.06 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86de0b44-0dc5-46ee-be0e-049c492f522e")
+	)
+	(wire
+		(pts
 			(xy 176.53 91.44) (xy 199.39 91.44)
 		)
 		(stroke
@@ -4261,6 +4596,16 @@
 			(type default)
 		)
 		(uuid "90bdc3f4-abb0-46e6-a2dd-83fcfc477bf2")
+	)
+	(wire
+		(pts
+			(xy 99.06 148.59) (xy 99.06 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94555ef6-d95a-4d4b-b62b-e0b6077f86b2")
 	)
 	(wire
 		(pts
@@ -4294,17 +4639,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 109.22) (xy 87.63 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cc64247-d6d4-4109-934f-19cab2b6ff93")
-	)
-	(wire
-		(pts
-			(xy 200.66 138.43) (xy 198.12 138.43)
+			(xy 257.81 138.43) (xy 255.27 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4344,7 +4679,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 66.04) (xy 217.17 66.04)
+			(xy 271.78 66.04) (xy 274.32 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4354,7 +4689,27 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 63.5) (xy 217.17 63.5)
+			(xy 85.09 76.2) (xy 99.06 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c7ac97-450c-41fb-9bc7-38b7697010c9")
+	)
+	(wire
+		(pts
+			(xy 133.35 69.85) (xy 133.35 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a98adbc8-f9df-480d-89b6-b33d164b8e88")
+	)
+	(wire
+		(pts
+			(xy 271.78 63.5) (xy 274.32 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4364,7 +4719,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 73.66) (xy 87.63 73.66)
+			(xy 85.09 73.66) (xy 93.98 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4404,6 +4759,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 78.74) (xy 127 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b61a88e2-9e8a-4daa-9bec-f9a3068e3f01")
+	)
+	(wire
+		(pts
 			(xy 85.09 114.3) (xy 93.98 114.3)
 		)
 		(stroke
@@ -4434,7 +4799,17 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 138.43) (xy 215.9 140.97)
+			(xy 127 64.77) (xy 127 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c11eba2f-4b3f-4934-86c8-267b73aa8592")
+	)
+	(wire
+		(pts
+			(xy 273.05 138.43) (xy 273.05 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4474,13 +4849,23 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 40.64) (xy 87.63 40.64)
+			(xy 85.09 40.64) (xy 99.06 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c71b851d-4289-4f9f-8fef-95c8827afcf9")
+	)
+	(wire
+		(pts
+			(xy 99.06 40.64) (xy 99.06 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9294c60-2032-432c-aaac-6989935cf419")
 	)
 	(wire
 		(pts
@@ -4494,7 +4879,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 138.43) (xy 215.9 138.43)
+			(xy 270.51 138.43) (xy 273.05 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4504,7 +4889,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 63.5) (xy 217.17 66.04)
+			(xy 274.32 63.5) (xy 274.32 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4544,6 +4929,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 111.76) (xy 99.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89ef3b1-e7f7-4549-ab98-2529c893895d")
+	)
+	(wire
+		(pts
 			(xy 85.09 121.92) (xy 93.98 121.92)
 		)
 		(stroke
@@ -4554,23 +4949,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 146.05) (xy 87.63 146.05)
+			(xy 85.09 146.05) (xy 93.98 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "efb1f38f-5760-4028-b920-d0643d438aaf")
-	)
-	(wire
-		(pts
-			(xy 85.09 148.59) (xy 87.63 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2238fc2-9089-45c5-9c4c-71178be93715")
 	)
 	(wire
 		(pts
@@ -4584,17 +4969,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 146.05) (xy 87.63 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f820a9d7-40d5-4c4d-a34b-d6fc24d3fbfb")
-	)
-	(wire
-		(pts
-			(xy 198.12 138.43) (xy 198.12 140.97)
+			(xy 255.27 138.43) (xy 255.27 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5033,6 +5408,739 @@
 		(uuid "ffa6de69-847d-45c1-8976-f8d8bcc1741f")
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00e82db5-336e-43fb-ae30-49cba9987bd7")
+		(property "Reference" "C11"
+			(at 236.22 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 236.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 236.22 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL32B106KBJNNWE"
+			(at 236.22 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 236.22 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-3388-1-ND"
+			(at 236.22 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d6355de-ddb3-4bf8-992a-817f8b3c957e")
+		)
+		(pin "2"
+			(uuid "8f819ac9-91d1-4f09-9c42-d0e613060a08")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 226.06 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02989116-bf6b-4cf5-a470-ba390fb9011c")
+		(property "Reference" "R28"
+			(at 228.6 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 228.6 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 226.06 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 226.06 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 226.06 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 226.06 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 226.06 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 226.06 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d140c8fd-3766-473a-8ead-bcf7341c3fb9")
+		)
+		(pin "2"
+			(uuid "78cd7e18-b53d-4227-81ef-ba3467a5b08d")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 255.27 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06e2719f-bda9-44e7-9f99-fd6ec13afade")
+		(property "Reference" "R15"
+			(at 257.81 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 257.81 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 255.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 255.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 255.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 255.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 255.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 255.27 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "668ab4a5-69b7-4967-b170-9c4c6f1a730e")
+		)
+		(pin "2"
+			(uuid "c970ffc3-5f88-4223-916e-b92941364bd3")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "072aef60-17d0-4bff-9bd9-7d5aa9e7eed4")
+		(property "Reference" "C9"
+			(at 236.22 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 236.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 236.22 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL32B106KBJNNWE"
+			(at 236.22 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 236.22 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-3388-1-ND"
+			(at 236.22 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b00720d-e988-4fb0-8a85-fbd371e8880c")
+		)
+		(pin "2"
+			(uuid "83ad4e98-b933-4e20-bbc5-a952992cb319")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 223.52 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "074a3702-7e9c-4270-a27c-6613452277a8")
+		(property "Reference" "R48"
+			(at 223.774 162.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 223.52 167.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 223.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 223.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 223.52 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b715a521-9781-4db9-8fe2-c1f12c802fd2")
+		)
+		(pin "2"
+			(uuid "5721601c-58fe-4500-bbe8-d0a0bb8cd8bf")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 168.91 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0919d571-42d0-4def-865c-e5ae1c6652a8")
+		(property "Reference" "R6"
+			(at 171.45 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 171.45 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 168.91 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 168.91 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 168.91 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 168.91 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 168.91 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 168.91 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d8ecc56-1c3b-4e71-a8cb-3e5cca7bcede")
+		)
+		(pin "2"
+			(uuid "ffb59bdc-27a7-4cd4-80f6-d03b89a0b455")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 196.85 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d2e93e3-7005-4bfa-9ca3-15c85385cf35")
+		(property "Reference" "R9"
+			(at 199.39 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 199.39 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 196.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 196.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 196.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 196.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 196.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 196.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5da69190-be24-4ef5-9935-58f67d80fcf4")
+		)
+		(pin "2"
+			(uuid "85706772-63e2-472c-ad7d-3c4227ada677")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 93.98 106.68 0)
 		(unit 1)
@@ -5100,7 +6208,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 68.58 0)
+		(at 274.32 68.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5109,7 +6217,7 @@
 		(dnp no)
 		(uuid "0e4140fd-cfb6-42d5-a7fa-2e8b17306eab")
 		(property "Reference" "#PWR013"
-			(at 217.17 74.93 0)
+			(at 274.32 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +6226,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 72.136 0)
+			(at 274.32 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +6234,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 68.58 0)
+			(at 274.32 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +6243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 68.58 0)
+			(at 274.32 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +6252,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 68.58 0)
+			(at 274.32 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,6 +6427,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 223.52 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fb68e77-d9f4-4d4b-99a7-d5c399790b5a")
+		(property "Reference" "R45"
+			(at 223.774 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 223.52 144.272 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 223.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23d7b000-e252-41a7-b83f-a6cffecaf541")
+		)
+		(pin "2"
+			(uuid "c4fb5ebd-eb7c-4504-85c9-ee7ea679f650")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.73 125.73 0)
 		(unit 1)
@@ -5385,32 +6596,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
-		(at 207.01 63.5 0)
+		(lib_id "Device:R_Small_US")
+		(at 130.81 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2a24bc1f-0a8d-4d6b-8128-6fcddbd6c86f")
-		(property "Reference" "J7"
-			(at 206.502 57.658 0)
+		(fields_autoplaced yes)
+		(uuid "10384957-6370-4744-ac2f-88baff567be0")
+		(property "Reference" "R2"
+			(at 133.35 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Keystone 7792"
-			(at 212.598 59.69 0)
+		(property "Value" "100k"
+			(at 133.35 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:KEYSTONE_7792"
-			(at 207.01 63.5 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 130.81 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,7 +6633,875 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 63.5 0)
+			(at 130.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 130.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 130.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 130.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 130.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 130.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb08ea6f-eb5c-4ff0-bc05-2993d5b9514f")
+		)
+		(pin "2"
+			(uuid "ff24457b-4b5a-4249-9ec9-55e49f3f2e0c")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 179.07 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11e9ffe5-f720-4841-9afc-b3fc433fb4fb")
+		(property "Reference" "R23"
+			(at 181.61 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 181.61 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "805fed3e-9596-4025-9102-1d3c1725d9ae")
+		)
+		(pin "2"
+			(uuid "f8da7d39-1b45-41ce-a996-208c60f87625")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 99.06 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16aec87e-5d8a-4f8d-b750-cc7316b3784d")
+		(property "Reference" "#PWR018"
+			(at 99.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 99.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 99.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "544bb9ca-9ec3-49b4-a207-3ecf1e49d235")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 149.86 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b50c998-25df-4f56-a905-059b12f97e87")
+		(property "Reference" "R4"
+			(at 152.4 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 152.4 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 149.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 149.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 149.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 149.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 149.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 149.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5be23cc-a420-44ac-852d-0641c0b51896")
+		)
+		(pin "2"
+			(uuid "a60418b1-b372-47f4-95d0-1c792cdc5e87")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 99.06 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fc81d02-13ea-4104-b765-92d4d0f015ab")
+		(property "Reference" "#PWR019"
+			(at 99.06 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 99.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 99.06 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "534033a5-65f0-4435-a983-3dd1706a2be4")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 140.97 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2221812a-1372-4373-9898-550b7b8cf3db")
+		(property "Reference" "R19"
+			(at 143.51 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 143.51 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 140.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 140.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 140.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 140.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 140.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 140.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d18d54c3-b150-4770-94d4-407c960ddc66")
+		)
+		(pin "2"
+			(uuid "5686273d-0540-4268-b0c9-68166771fd2b")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2350a2b8-802c-4704-acb4-052c58ece73e")
+		(property "Reference" "C17"
+			(at 236.22 162.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 236.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 236.22 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL32B106KBJNNWE"
+			(at 236.22 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 236.22 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-3388-1-ND"
+			(at 236.22 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "232ecd0d-e9aa-4296-8e64-7db19cdd31de")
+		)
+		(pin "2"
+			(uuid "d9b8ab8a-e9c5-4fa4-873e-92d2a665aff7")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 245.11 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24f8c488-9633-46b3-aa93-138d4de61151")
+		(property "Reference" "R30"
+			(at 247.65 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 247.65 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 245.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 245.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 245.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 245.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 245.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 245.11 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a85ee68-228f-449a-951d-8fe623ea2da4")
+		)
+		(pin "2"
+			(uuid "cc7ccb47-34bc-4a41-a414-c73c0a9bc2ff")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 187.96 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26b35f27-b1aa-48d6-ac89-bd260dc2c930")
+		(property "Reference" "R24"
+			(at 190.5 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 190.5 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 187.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 187.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 187.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 187.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 187.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 187.96 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55b081d3-195d-4a00-8525-d0f2f71d04d7")
+		)
+		(pin "2"
+			(uuid "4ebf0de7-27a7-4de9-b821-2d6fe748a4be")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
+		(at 264.16 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a24bc1f-0a8d-4d6b-8128-6fcddbd6c86f")
+		(property "Reference" "J7"
+			(at 263.652 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keystone 7792"
+			(at 269.748 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:KEYSTONE_7792"
+			(at 264.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,7 +7510,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 63.5 0)
+			(at 264.16 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,6 +7534,112 @@
 			(project ""
 				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 168.91 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2eddabfc-c42a-4857-ba04-f0b92b50c696")
+		(property "Reference" "R22"
+			(at 171.45 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 171.45 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1895bba2-d49f-47fa-bebb-a7beeace6c1a")
+		)
+		(pin "2"
+			(uuid "49b7af22-dc1b-43c1-89d3-a828b80ef81f")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -5606,6 +7794,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30c22749-78c5-4103-a494-15ced2a21080")
+		(property "Reference" "C16"
+			(at 236.22 154.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 236.22 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 236.22 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL32B106KBJNNWE"
+			(at 236.22 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 236.22 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-3388-1-ND"
+			(at 236.22 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b34e385-fc4c-4ef4-a0d1-b2f8b40776fd")
+		)
+		(pin "2"
+			(uuid "b3afcf48-82ed-472f-9c02-c266e6df7d2d")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CableTester_Mux_Project_Lib:7-188275-8")
 		(at 85.09 109.22 0)
 		(mirror y)
@@ -5695,17 +7986,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 125.73 78.74 0)
+		(lib_id "Device:R_Small_US")
+		(at 196.85 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4a8d7579-ec08-4ff7-b66e-f277313fca27")
-		(property "Reference" "C1"
-			(at 129.54 77.4699 0)
+		(uuid "34bca820-51d7-4940-8e63-d47600eec034")
+		(property "Reference" "R25"
+			(at 199.39 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5713,8 +8004,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 129.54 80.0099 0)
+		(property "Value" "100k"
+			(at 199.39 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,8 +8013,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 126.6952 82.55 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 196.85 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5732,7 +8023,421 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 78.74 0)
+			(at 196.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 196.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 196.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 196.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 196.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 196.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4eb3bb1-cdb4-4253-bf37-632b60c6f9fa")
+		)
+		(pin "2"
+			(uuid "072884f5-4b3c-4499-b081-72896f1540ec")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 223.52 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f0b968a-8d11-4245-9a95-73a8533ac3cf")
+		(property "Reference" "R38"
+			(at 223.774 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 223.52 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 223.52 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7154a65-2a2b-444c-a4ff-b37a5d3ad3c2")
+		)
+		(pin "2"
+			(uuid "3821f61f-d670-44d8-a25a-710e047aa8cc")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 223.52 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f57c5bb-a05d-476c-adc4-6e1562d4556f")
+		(property "Reference" "R42"
+			(at 223.774 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 223.52 121.412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 223.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d86a58fe-a3c9-44e6-b933-597490eaba1e")
+		)
+		(pin "2"
+			(uuid "cbd1fb1b-1896-46fa-bc55-26a26dd09b5c")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4551623d-0051-4cb1-ae43-30237d45734e")
+		(property "Reference" "C14"
+			(at 236.22 139.192 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 236.22 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 236.22 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL32B106KBJNNWE"
+			(at 236.22 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 236.22 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-3388-1-ND"
+			(at 236.22 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "884ff865-7db6-4688-80bb-16b5b30c2bef")
+		)
+		(pin "2"
+			(uuid "47ea189d-fb1f-414e-9e8a-d4c53a6764ae")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a8d7579-ec08-4ff7-b66e-f277313fca27")
+		(property "Reference" "C1"
+			(at 119.126 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 117.856 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 126.0348 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +8446,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 78.74 0)
+			(at 127 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5750,7 +8455,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 125.73 78.74 0)
+			(at 127 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5759,7 +8464,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" ""
-			(at 125.73 78.74 0)
+			(at 127 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,7 +8473,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 125.73 78.74 0)
+			(at 127 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5777,7 +8482,7 @@
 			)
 		)
 		(property "Supplier Part Number" ""
-			(at 125.73 78.74 0)
+			(at 127 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,7 +8507,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 140.97 0)
+		(at 273.05 140.97 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5811,7 +8516,7 @@
 		(dnp no)
 		(uuid "4b627d4a-8ff6-4049-b0fd-d3960ab01f33")
 		(property "Reference" "#PWR015"
-			(at 215.9 147.32 0)
+			(at 273.05 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5820,7 +8525,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 144.526 0)
+			(at 273.05 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5828,7 +8533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 140.97 0)
+			(at 273.05 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,7 +8542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 140.97 0)
+			(at 273.05 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5846,7 +8551,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 140.97 0)
+			(at 273.05 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5861,6 +8566,218 @@
 			(project "CableTester_Mux"
 				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 158.75 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5485ee16-0459-4b7b-9c6c-55d66911dce5")
+		(property "Reference" "R5"
+			(at 161.29 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 161.29 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 158.75 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c36def6a-1d89-42ee-b9a2-ca9c57a559c7")
+		)
+		(pin "2"
+			(uuid "fe88877d-1607-4cca-99e8-4a928ac33c54")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 120.65 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57f185f4-f0bd-470b-83f4-6f0cc987a171")
+		(property "Reference" "R1"
+			(at 123.19 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 123.19 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 120.65 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 120.65 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 120.65 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 120.65 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 120.65 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 120.65 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6400f595-89f7-4a76-94d8-1b2afc6f8047")
+		)
+		(pin "2"
+			(uuid "0b72a2ad-f6db-4ffb-a87f-1c75e9cc2039")
+		)
+		(instances
+			(project ""
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6021,6 +8938,175 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 99.06 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fb89c00-e791-426d-9a15-918c5c71ee7b")
+		(property "Reference" "#PWR017"
+			(at 99.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 99.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 99.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3faa51a-afe4-4704-a0aa-d436bfcd9589")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63a723ae-539e-4a3a-9863-91d709577bef")
+		(property "Reference" "C8"
+			(at 236.22 93.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 236.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 236.22 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL32B106KBJNNWE"
+			(at 236.22 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 236.22 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-3388-1-ND"
+			(at 236.22 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cfcd8ad-b12a-4bed-bca6-fea35e98fca3")
+		)
+		(pin "2"
+			(uuid "0c4564a6-b065-4f35-b24b-27fb6f5b386f")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 93.98 71.12 0)
 		(unit 1)
@@ -6086,8 +9172,801 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 99.06 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6630d262-48fd-4eec-8825-df1ed14846a6")
+		(property "Reference" "#PWR016"
+			(at 99.06 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 99.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26f6597a-b1bd-4f2a-ad06-4109fe2dcf65")
+		)
+		(instances
+			(project ""
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 234.95 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c8a0de1-29cb-4841-bfad-6866a1bb61fb")
+		(property "Reference" "R13"
+			(at 237.49 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 237.49 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 234.95 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 234.95 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 234.95 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 234.95 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 234.95 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 234.95 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28528e3a-173a-4665-a5dc-99b3e8926c59")
+		)
+		(pin "2"
+			(uuid "2609453c-7d31-46c1-bd55-1a7f3714bccb")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 223.52 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72027b75-5a48-4519-bf58-847532e7a581")
+		(property "Reference" "R40"
+			(at 223.774 101.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 223.52 106.172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "653952c2-e5a8-4570-a28e-975e211e1f46")
+		)
+		(pin "2"
+			(uuid "14208c51-803f-4ed0-8990-31df44e1b5fd")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "721ce648-de0b-4edc-8d45-d18555048e83")
+		(property "Reference" "C4"
+			(at 236.22 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 236.22 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 236.22 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL32B106KBJNNWE"
+			(at 236.22 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 236.22 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-3388-1-ND"
+			(at 236.22 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d35ed65-2de3-4f71-8712-f40f45a7fd60")
+		)
+		(pin "2"
+			(uuid "6d25b7d6-3812-4012-af70-c855b79e976e")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 234.95 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73a408cf-5f2c-40ce-86cf-ca3d9cbdc7c4")
+		(property "Reference" "R29"
+			(at 237.49 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 237.49 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 234.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 234.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 234.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 234.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 234.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 234.95 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b31dc615-dbda-45ba-af1a-e27c9b8aba33")
+		)
+		(pin "2"
+			(uuid "058a0eff-4315-41c0-a8a4-03a74d3f851e")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "740254bb-c710-4502-9adf-f4d809191b9d")
+		(property "Reference" "C5"
+			(at 236.22 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 236.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 236.22 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL32B106KBJNNWE"
+			(at 236.22 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 236.22 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-3388-1-ND"
+			(at 236.22 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2732254e-e54d-427d-b664-446950deab6b")
+		)
+		(pin "2"
+			(uuid "37efe414-1c93-430c-8532-6143c448a49d")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77534435-029e-459e-9660-5d2f720c43cf")
+		(property "Reference" "C3"
+			(at 236.22 55.372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 236.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 236.22 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL32B106KBJNNWE"
+			(at 236.22 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 236.22 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-3388-1-ND"
+			(at 236.22 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec7a2ac3-7119-449b-bcb4-4b43957dad68")
+		)
+		(pin "2"
+			(uuid "eefdbb76-a312-4e11-be79-1bb5cc2afa42")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 223.52 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bb3ce79-e827-4976-b312-239c35115d8e")
+		(property "Reference" "R47"
+			(at 223.774 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 223.52 159.512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 223.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 223.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 223.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b9fb6d8-e6f6-4bea-8ed9-53dc554e8f53")
+		)
+		(pin "2"
+			(uuid "581f4ff0-01d2-4f9c-a5a3-87647a74e53d")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CableTester_Mux_Project_Lib:1787072")
-		(at 199.39 83.82 0)
+		(at 257.81 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6095,7 +9974,7 @@
 		(dnp no)
 		(uuid "7bed17b2-8528-4998-9af1-868e6a70988e")
 		(property "Reference" "J5"
-			(at 204.47 76.962 0)
+			(at 262.89 76.962 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6104,7 +9983,7 @@
 			)
 		)
 		(property "Value" "1787072"
-			(at 204.47 79.756 0)
+			(at 262.89 79.756 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6113,7 +9992,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:CONN_1787072_PXC"
-			(at 213.614 91.44 90)
+			(at 272.034 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6123,7 +10002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.614 85.598 90)
+			(at 272.034 85.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,7 +10012,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 83.82 0)
+			(at 257.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6193,6 +10072,1266 @@
 			(project ""
 				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 189.23 17.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f84e9eb-800b-4668-9b66-9c93ea63fb3f")
+		(property "Reference" "R49"
+			(at 189.484 15.494 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 189.23 19.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 189.23 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 189.23 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 189.23 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 189.23 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 189.23 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 189.23 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71f60735-6fc0-4ccc-a6da-397a270c248f")
+		)
+		(pin "2"
+			(uuid "697d1022-004e-4d93-82c9-d584e63cce2b")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 223.52 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80def53c-d0b9-4aee-a9b1-a2b51f81f7a0")
+		(property "Reference" "R41"
+			(at 223.774 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 223.52 113.792 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 223.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 223.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 223.52 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb6be2bb-e78d-4d7b-8236-9c6d345f9edc")
+		)
+		(pin "2"
+			(uuid "9295553a-88eb-46a7-88b8-56e398286ec7")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 223.52 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81acc583-38ac-4740-82b8-751ee17f3c9b")
+		(property "Reference" "R46"
+			(at 223.774 147.574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 223.52 151.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 223.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 223.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 223.52 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8884644e-c063-44f6-8c93-d2e7520cbe55")
+		)
+		(pin "2"
+			(uuid "f045f2d0-a313-4ac1-9d72-70078ac45f84")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 158.75 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84b15be2-efb6-486c-8690-825943291160")
+		(property "Reference" "R21"
+			(at 161.29 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 161.29 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 158.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 158.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 158.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 158.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 158.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 158.75 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbd34e64-c745-47a6-a560-031b891c9796")
+		)
+		(pin "2"
+			(uuid "f13eeab6-a252-47c1-b5e8-eebf434cf7c1")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 255.27 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89456dd0-2ac7-4c67-a1d8-c48092eaecb1")
+		(property "Reference" "R31"
+			(at 257.81 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 257.81 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 255.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 255.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 255.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 255.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 255.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 255.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "487ed300-d89d-4ff1-8f2b-38eb0a4fed2f")
+		)
+		(pin "2"
+			(uuid "f057c557-7643-4712-9b2a-523087e8d05b")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 120.65 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89a94aad-c681-4d30-9afb-cd9a114b16c7")
+		(property "Reference" "R17"
+			(at 123.19 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 123.19 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0d4748a-5730-481f-8d8e-785bc5da038a")
+		)
+		(pin "2"
+			(uuid "4719780d-8aaf-424e-b869-0e79eb189071")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 223.52 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91225b2d-51db-4527-8683-d79e261a2ec1")
+		(property "Reference" "R33"
+			(at 223.774 48.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 223.52 52.832 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fe4eeeb-7e71-4abb-aea6-28949f690a96")
+		)
+		(pin "2"
+			(uuid "37db269c-7d63-4c94-a62b-3318f105e626")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 217.17 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94f57d33-db5b-4bd3-af0f-29f282f1ad5f")
+		(property "Reference" "R11"
+			(at 219.71 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 219.71 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 217.17 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 217.17 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 217.17 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 217.17 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 217.17 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 217.17 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "777a9407-a69a-4fad-a93a-94e918926412")
+		)
+		(pin "2"
+			(uuid "b218e187-be6b-4d27-8232-c9660a77861d")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 179.07 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97bece6b-eb39-4ef8-a415-3e4a902269e0")
+		(property "Reference" "R7"
+			(at 181.61 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 181.61 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 179.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 179.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 179.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 179.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 179.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 179.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "015496f3-74b4-4c9a-ba09-4838b009ec62")
+		)
+		(pin "2"
+			(uuid "344b0c50-32cc-4171-ab6c-931d937c9d68")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 226.06 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99142068-bfa2-4adb-922d-c2c511360f91")
+		(property "Reference" "R12"
+			(at 228.6 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 228.6 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 226.06 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 226.06 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 226.06 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 226.06 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 226.06 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 226.06 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8957f147-b198-43ec-bbac-f26102f321bd")
+		)
+		(pin "2"
+			(uuid "4454236d-e2b9-432a-bdf2-be8d7258bc80")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 140.97 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e2e9c38-440f-4454-9059-2c7f8716241d")
+		(property "Reference" "R3"
+			(at 143.51 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 143.51 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 140.97 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 140.97 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 140.97 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 140.97 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 140.97 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 140.97 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70b35cb5-3ebc-433c-9cd7-be9fbe6ff7d8")
+		)
+		(pin "2"
+			(uuid "c3d79be1-0a40-4b3e-9586-691ae1388064")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 264.16 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e9f2d62-241d-45fd-b906-8c7e5ce3897b")
+		(property "Reference" "R32"
+			(at 266.7 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 266.7 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "824a4139-a089-4089-9cc7-a02af3a3d94e")
+		)
+		(pin "2"
+			(uuid "fdf03077-bf5a-4068-b675-1f55e761e9da")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -6264,33 +11403,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 125.73 68.58 0)
+		(lib_id "Device:R_Small_US")
+		(at 264.16 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b03e6e05-f9cb-43e4-ad6b-31aa07ef16b1")
-		(property "Reference" "#PWR01"
-			(at 125.73 72.39 0)
+		(fields_autoplaced yes)
+		(uuid "a352b880-103e-4ab4-adad-d5613345ca13")
+		(property "Reference" "R16"
+			(at 266.7 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "+5V"
-			(at 125.73 64.77 0)
+		(property "Value" "100k"
+			(at 266.7 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 125.73 68.58 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 264.16 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +11440,383 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 68.58 0)
+			(at 264.16 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 264.16 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 264.16 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 264.16 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 264.16 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 264.16 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e9fbea2-6ace-47f9-802b-e0c46705f936")
+		)
+		(pin "2"
+			(uuid "8c35f9ce-4872-468f-b962-c749fa31b49f")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a57ea840-790d-450d-a94c-5812237e7c1e")
+		(property "Reference" "C2"
+			(at 236.22 47.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 236.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 236.22 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL32B106KBJNNWE"
+			(at 236.22 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 236.22 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-3388-1-ND"
+			(at 236.22 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "192e962c-ba03-4421-85c1-75cb3ceb9724")
+		)
+		(pin "2"
+			(uuid "191aabcc-ed83-476b-9c37-93b9ac3c2a98")
+		)
+		(instances
+			(project ""
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9c2fbb3-dc4a-484b-bba0-ab4387dfb7e8")
+		(property "Reference" "#PWR020"
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00964e44-6de8-450b-82fa-ba08a81124a6")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 149.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac893d9a-09ec-4eb5-bcbd-fad5de48d436")
+		(property "Reference" "C15"
+			(at 236.22 146.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 236.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 236.22 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL32B106KBJNNWE"
+			(at 236.22 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 236.22 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-3388-1-ND"
+			(at 236.22 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0389f2ac-496e-404c-a248-8211fed575b6")
+		)
+		(pin "2"
+			(uuid "65d83fe3-c644-497e-ab5b-f80cd4287aa3")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 127 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b03e6e05-f9cb-43e4-ad6b-31aa07ef16b1")
+		(property "Reference" "#PWR01"
+			(at 127 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 127 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,7 +11825,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 125.73 68.58 0)
+			(at 127 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,33 +11959,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 199.39 68.58 0)
+		(lib_id "Device:R_Small_US")
+		(at 190.5 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b66bda13-6d87-4a8a-bc2a-b00f87b8a959")
-		(property "Reference" "#PWR03"
-			(at 199.39 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 72.136 0)
+		(uuid "b4403437-b0dc-42f6-969d-618640386938")
+		(property "Reference" "R50"
+			(at 190.754 44.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 199.39 68.58 0)
+		(property "Value" "0R"
+			(at 190.5 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 190.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,7 +11993,111 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 68.58 0)
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cefb19d-08c3-4af2-819e-48572a630e43")
+		)
+		(pin "2"
+			(uuid "f3fbbfab-5e47-4b6e-82ac-5afd60f40c1c")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b66bda13-6d87-4a8a-bc2a-b00f87b8a959")
+		(property "Reference" "#PWR03"
+			(at 256.54 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6486,7 +12106,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 68.58 0)
+			(at 256.54 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6566,6 +12186,315 @@
 			(project "CableTester_Mux"
 				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bff930d6-7bef-463f-84ba-0a6b942226eb")
+		(property "Reference" "C7"
+			(at 236.22 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 236.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 236.22 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL32B106KBJNNWE"
+			(at 236.22 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 236.22 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-3388-1-ND"
+			(at 236.22 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "572df4c0-896e-4eba-808d-a4bea20187b4")
+		)
+		(pin "2"
+			(uuid "a8e4ce08-2c30-4c92-95aa-6b22b9937c96")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bffffad0-c12c-469b-a787-1827388aac45")
+		(property "Reference" "C10"
+			(at 236.22 108.712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 236.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 236.22 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL32B106KBJNNWE"
+			(at 236.22 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 236.22 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-3388-1-ND"
+			(at 236.22 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b82109b-c062-4cea-985a-678c60d5128d")
+		)
+		(pin "2"
+			(uuid "9c70972b-5897-4f8e-85ff-c06dc6a7ca8a")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 223.52 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0431120-f838-4002-abe6-d9b0b644b199")
+		(property "Reference" "R37"
+			(at 223.774 78.994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 223.52 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 223.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57d6e90b-13a5-4e25-ada8-7adb56476671")
+		)
+		(pin "2"
+			(uuid "d2ed39bc-5edf-4c16-b38a-a3a2a169e808")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -6661,32 +12590,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
-		(at 205.74 135.89 0)
+		(lib_id "Device:R_Small_US")
+		(at 149.86 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c7165d60-c501-41db-9477-0cdf557b5995")
-		(property "Reference" "J8"
-			(at 205.232 130.048 0)
+		(fields_autoplaced yes)
+		(uuid "c5e4fda9-2d86-429a-b807-a0ddd5832807")
+		(property "Reference" "R20"
+			(at 152.4 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Keystone 7792"
-			(at 211.328 132.08 0)
+		(property "Value" "100k"
+			(at 152.4 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Footprints:KEYSTONE_7792"
-			(at 205.74 135.89 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 149.86 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6695,7 +12627,110 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 135.89 0)
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3c1f7e2-b0d2-4576-b8d8-7933a6ce752d")
+		)
+		(pin "2"
+			(uuid "0e55a75f-1465-4c4e-8eb7-70f807a41c49")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
+		(at 262.89 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7165d60-c501-41db-9477-0cdf557b5995")
+		(property "Reference" "J8"
+			(at 262.382 130.048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Keystone 7792"
+			(at 268.478 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:KEYSTONE_7792"
+			(at 262.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6704,7 +12739,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 135.89 0)
+			(at 262.89 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6734,33 +12769,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 198.12 140.97 0)
+		(lib_id "Device:R_Small_US")
+		(at 223.52 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dc396176-130c-4cab-bfb3-b647330cf3d1")
-		(property "Reference" "#PWR014"
-			(at 198.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 198.12 144.526 0)
+		(uuid "c8ed1014-dc25-467b-960f-640ee89a11e0")
+		(property "Reference" "R34"
+			(at 223.774 56.134 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 198.12 140.97 0)
+		(property "Value" "0R"
+			(at 223.52 60.452 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6769,7 +12803,841 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 140.97 0)
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9202af65-bd9f-479b-8197-f34a6cacd57a")
+		)
+		(pin "2"
+			(uuid "a2e3dd52-1d4d-44e8-8b98-5eb61a8832fe")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 217.17 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca59ac7b-ddf0-4f90-adb1-b5bf618cbbeb")
+		(property "Reference" "R27"
+			(at 219.71 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 219.71 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 217.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f74df98-80b9-41b8-ba2c-278ec26ffbb3")
+		)
+		(pin "2"
+			(uuid "5f00f6e4-f202-47e1-916a-e9ad9041f07f")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 223.52 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd2328dd-645b-468d-8a8b-bfa428191dac")
+		(property "Reference" "R35"
+			(at 223.774 63.754 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 223.52 68.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 223.52 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6be3b3fe-fdec-4eda-9f40-ea5dca3e0b22")
+		)
+		(pin "2"
+			(uuid "c449a454-bda5-4dbb-bcae-4f2b65f9ad71")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 207.01 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdbe67e5-ed67-46c6-b66e-ad87cf3a96c4")
+		(property "Reference" "R10"
+			(at 209.55 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 209.55 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 207.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 207.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 207.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 207.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 207.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 207.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d0085cd-adcf-467f-a7d6-324cd5393a9e")
+		)
+		(pin "2"
+			(uuid "fb4261d9-27cb-432b-bade-235f32b43612")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 223.52 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2624745-fa49-4cec-af1f-53211ba2d27a")
+		(property "Reference" "R44"
+			(at 223.774 132.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 223.52 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 223.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 223.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 223.52 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68e196e7-5e08-4fe4-a5fe-d2ae89e58972")
+		)
+		(pin "2"
+			(uuid "a8ccf432-88c9-47e1-9c05-3d2641290d78")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 223.52 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d32b505a-0e6e-4339-8929-6c81ceea4f72")
+		(property "Reference" "R43"
+			(at 223.774 124.714 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 223.52 129.032 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83f5b7a9-9821-4e40-b2d9-d55ae89657a7")
+		)
+		(pin "2"
+			(uuid "fbfa2d47-03d7-47f2-9deb-3d0842f4a732")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d384deed-466f-469b-95d8-d4b9a2b5a3a5")
+		(property "Reference" "C13"
+			(at 236.22 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 236.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 236.22 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL32B106KBJNNWE"
+			(at 236.22 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 236.22 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-3388-1-ND"
+			(at 236.22 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf71154a-2e07-4450-996a-10926cab0ed7")
+		)
+		(pin "2"
+			(uuid "e2abad99-4933-4b3d-b5fe-b7295204f99b")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 207.01 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d38d94f3-ae1d-486f-92d6-306f8b02f135")
+		(property "Reference" "R26"
+			(at 209.55 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 209.55 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 207.01 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 207.01 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 207.01 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 207.01 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 207.01 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 207.01 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "535d37a0-f3fe-4f46-9a40-7f9062bdd713")
+		)
+		(pin "2"
+			(uuid "5f1a75ef-ca35-4724-b36d-2f1afac1725d")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.27 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc396176-130c-4cab-bfb3-b647330cf3d1")
+		(property "Reference" "#PWR014"
+			(at 255.27 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,7 +13646,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 140.97 0)
+			(at 255.27 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6793,6 +13661,112 @@
 			(project "CableTester_Mux"
 				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 187.96 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df041d74-1670-49c9-ab27-661b397e5c1e")
+		(property "Reference" "R8"
+			(at 190.5 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 190.5 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 187.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 187.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 187.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 187.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 187.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 187.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43862760-853b-4cac-a3e2-e18196c1b293")
+		)
+		(pin "2"
+			(uuid "e1d6c15f-af54-4ff8-96a1-e41c85f8566d")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6866,6 +13840,318 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 223.52 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4964d3f-5f9d-4c85-bdd0-ac20d9858d87")
+		(property "Reference" "R39"
+			(at 223.774 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 223.52 98.552 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fedaa24-f86e-4f24-8a4c-0682cf6bb23a")
+		)
+		(pin "2"
+			(uuid "16c54af7-170f-401c-9eab-47b24b5dd640")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ecea3168-c997-43d1-8794-35145e579fa9")
+		(property "Reference" "C12"
+			(at 236.22 123.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 236.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 236.22 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL32B106KBJNNWE"
+			(at 236.22 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 236.22 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-3388-1-ND"
+			(at 236.22 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9533224-ed48-4b33-ae19-dd641b12a7b0")
+		)
+		(pin "2"
+			(uuid "caf52038-704c-4242-9889-0eef36836cb9")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 245.11 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef9baff9-d375-4e10-9c50-a41ecb0b4311")
+		(property "Reference" "R14"
+			(at 247.65 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 247.65 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 245.11 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 245.11 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 245.11 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 245.11 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 245.11 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 245.11 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4d5c374-75f6-42b0-96e9-2c6ac11a3109")
+		)
+		(pin "2"
+			(uuid "2c528ce4-5a36-455b-8d2a-26ba95c8b5c6")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 93.98 143.51 0)
 		(unit 1)
@@ -6932,6 +14218,215 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 130.81 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f44eedeb-1900-48a8-a8a6-0a7bd291657e")
+		(property "Reference" "R18"
+			(at 133.35 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 133.35 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 130.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 130.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 130.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "RG1608P-104-B-T5"
+			(at 130.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 130.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "RG16P100KBCT-ND"
+			(at 130.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f569b6d8-7c69-4b30-bd2c-6158ff195a14")
+		)
+		(pin "2"
+			(uuid "2af0356b-6b1b-4e97-bf86-bc3acf1bceb6")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 223.52 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7085a73-d1b4-41fe-af14-e214b150b21b")
+		(property "Reference" "R36"
+			(at 223.774 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 223.52 75.692 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CRCW06030000Z0EA"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "541-0.0GCT-ND"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "104df0a0-450f-4c5e-a32c-4c271f5c8b70")
+		)
+		(pin "2"
+			(uuid "1c05ba38-097c-4be7-848c-9dd5cdfd3dc8")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 93.98 129.54 0)
 		(unit 1)
@@ -6991,6 +14486,109 @@
 			(project "CableTester_Mux"
 				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 236.22 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff4e65a8-d951-4d98-a2ed-9f997d0294ed")
+		(property "Reference" "C6"
+			(at 236.22 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 236.22 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 236.22 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL32B106KBJNNWE"
+			(at 236.22 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digikey"
+			(at 236.22 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "1276-3388-1-ND"
+			(at 236.22 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d55c39e-7a00-482b-ac62-06c55d4816ac")
+		)
+		(pin "2"
+			(uuid "15db9785-c36f-4a59-b457-3ade525c00f1")
+		)
+		(instances
+			(project "CableTester_Mux"
+				(path "/841f615f-04b3-41d5-a150-d938aabba9aa"
+					(reference "C6")
 					(unit 1)
 				)
 			)
